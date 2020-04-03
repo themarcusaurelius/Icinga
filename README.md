@@ -22,7 +22,7 @@ This module is not available for macOS.
 1. Enter the following script into the console using elevated privileges
 
 ```
-curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scripts/install-config-nginx.sh > install-config-nginx.sh; chmod a+x  install-config-nginx.sh; ./install-config-nginx.sh _PLACEHOLDER_API_ENDPOINT_
+curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scripts/install-config-icinga.sh > install-config-icinga.sh; chmod a+x  install-config-icinga.sh; ./install-config-icinga.sh _PLACEHOLDER_API_ENDPOINT_
 ```
 
 2. When prompted, select the proper environment to complete the installation.
@@ -34,7 +34,7 @@ curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scr
 1. Enable the module.
 
 ```
-filebeat modules enable nginx
+filebeat modules enable icinga
 ```
 
 2. Restart Filebeat.
