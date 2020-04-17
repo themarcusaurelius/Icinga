@@ -83,6 +83,8 @@ This will install and run Filebeat with the module you enabled set to that parti
 
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
+<hr>
+
 <i>If you have already installed filebeat...</i>
 
 1) In Powershell, as administrator, CD into the ```Filebeat``` folder and enter the following command:
