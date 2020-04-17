@@ -29,7 +29,6 @@ curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scr
 
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
-<br>
 
 <i>If you have already installed filebeat...</i>
 
@@ -82,9 +81,6 @@ Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 This will install and run Filebeat with the module you enabled set to that particular modules default file path.
 
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
-
-<br>
-
 
 <i>If you have already installed filebeat...</i>
 
